@@ -1,0 +1,170 @@
+body {
+    background-color: #eeeeee;
+    font-family: Arial;
+    margin: 0;
+}
+
+
+/* Main container */
+
+.container {
+    width: 90%;
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+
+/* Header */
+
+header {
+    background-color: #4c8eda;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    margin: 5px;
+}
+
+header p {
+    margin: 10px;
+}
+
+
+/* Main boxes */
+
+.box {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+
+/* Dashed headings */
+
+h2 {
+    color: #3574b8;
+    border: 2px dashed #3574b8;
+    padding: 8px;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto 20px auto;
+}
+
+
+/* Paragraphs */
+
+p {
+    line-height: 1.5;
+}
+
+
+/* Schedule table */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #dceafa;
+}
+
+th,
+td {
+    border: 1px solid #999999;
+    padding: 8px;
+    text-align: center;
+}
+
+
+/* Skill bars */
+
+.bar {
+    background-color: #dddddd;
+    height: 20px;
+    margin-bottom: 15px;
+}
+
+.bar div {
+    background-color: #4c8eda;
+    color: white;
+    height: 20px;
+    text-align: right;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.html {
+    width: 80%;
+}
+
+.css {
+    width: 60%;
+}
+
+.python {
+    width: 40%;
+}
+
+
+/* YouTube video */
+
+iframe {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #777777;
+}
+
+
+/* Contact form */
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    margin-bottom: 10px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    background-color: #4c8eda;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+/* Links */
+
+a {
+    color: #3574b8;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    color: #777777;
+    padding: 10px;
+}
