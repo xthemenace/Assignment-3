@@ -1,210 +1,133 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Emmanuel's Personal Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmanuel Archibong C. - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <div class="container">
-
-        <!-- Top Section -->
-        <header>
-            <div class="name-area">
-                <h1>Emmanuel Archibong</h1>
-                <p>Computer Science Student</p>
-            </div>
-        </header>
-
-
-        <!-- About Me -->
-        <div class="box">
-
-            <h2>About Me</h2>
-
-            <p>
-                Hello! My name is Emmanuel Archibong. I am a Computer Science
-                student at the University of Calabar. I am interested in
-                computers, programming and technology.
-            </p>
-
-            <p>
-                I am currently learning how to create websites using HTML
-                and CSS. I enjoy learning new things and improving my
-                computer skills.
-            </p>
-
-        </div>
-
-
-        <!-- Coding Schedule -->
-        <div class="box">
-
-            <h2>My Coding Schedule</h2>
-
-            <table>
-
-                <tr>
-                    <th>Time</th>
-                    <th>Mon</th>
-                    <th>Tue</th>
-                    <th>Wed</th>
-                    <th>Thu</th>
-                    <th>Fri</th>
-                </tr>
-
-                <tr>
-                    <td>8 - 8:30</td>
-                    <td class="activity">Learn</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-
-                <tr>
-                    <td>9 - 10</td>
-                    <td></td>
-                    <td class="activity">Practice</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-
-                <tr>
-                    <td>1 - 1:30</td>
-                    <td></td>
-                    <td></td>
-                    <td class="activity">Play</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-
-                <tr>
-                    <td>3:45 - 5</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td class="activity">Code</td>
-                    <td></td>
-                </tr>
-
-                <tr>
-                    <td>6 - 6:15</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td class="activity">Discuss</td>
-                </tr>
-
-            </table>
-
-        </div>
-
-
-        <!-- My Skills -->
-        <div class="box">
-
-            <h2>My Skills</h2>
-
-            <p>HTML</p>
-
-            <div class="skill-bar">
-                <div class="html">80%</div>
-            </div>
-
-
-            <p>CSS</p>
-
-            <div class="skill-bar">
-                <div class="css">60%</div>
-            </div>
-
-
-            <p>Python</p>
-
-            <div class="skill-bar">
-                <div class="python">40%</div>
-            </div>
-
-        </div>
-
-
-        <!-- My Media -->
-        <div class="box">
-
-            <h2>My Media</h2>
-
-            <img
-                class="coding-image"
-                src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=900&q=80"
-                alt="Computer coding">
-
-            <p>
-                This is a picture related to programming and computer
-                development.
-            </p>
-
-            <h3>Learning HTML and CSS</h3>
-
-            <iframe
-                src="https://www.youtube.com/embed/qz0aGYrrlhU"
-                title="HTML Tutorial for Beginners"
-                allowfullscreen>
-            </iframe>
-
-        </div>
-
-
-        <!-- Contact Me -->
-        <div class="box">
-
-            <h2>Contact Me</h2>
-
-            <form>
-
-                <label>Name</label>
-                <input type="text" placeholder="Enter your name">
-
-                <label>Email</label>
-                <input type="email" placeholder="Enter your email">
-
-                <label>Message</label>
-                <textarea placeholder="Write your message"></textarea>
-
-                <button type="submit">SEND</button>
-
-            </form>
-
-        </div>
-
-
-        <!-- Follow Me -->
-        <div class="box">
-
-            <h2>Follow Me</h2>
-
-            <div class="social-links">
-
-                <a href="#">Facebook</a>
-
-                <a href="#">Instagram</a>
-
-                <a href="#">Twitter</a>
-
-            </div>
-
-        </div>
-
-
-        <!-- Footer -->
-        <footer>
-            <p>© 2026 Emmanuel Archibong</p>
-        </footer>
-
+<div class="container">
+    
+    <div class="card header-card">
+        <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Profile Picture" class="profile-pic">
+        <h1 class="header-name">Emmanuel Archibong C.</h1>
     </div>
 
+    <div class="card">
+        <div class="section-title">About Me</div>
+        <p class="about-text">
+            Hey! I'm <strong>Emmanuel Archibong C.</strong> Coding has changed my world. It's not just about apps. Learning to code gave me problem-solving skills and a way to communicate with others on a technical level. I can also develop websites and use my coding skills to get a better job. And I learned it all by building projects where they build your self-esteem and keep you motivated. Join me in this rewarding journey. You'll have fun, get help, and learn along the way!
+        </p>
+        <p class="quote">"Declare variables, not war"</p>
+    </div>
+
+    <div class="card">
+        <div class="section-title">My Coding Schedule</div>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+            </tr>
+            <tr>
+                <td>8 - 8:30</td>
+                <td><div class="highlight-box">Learn</div></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9 - 10</td>
+                <td></td>
+                <td><div class="highlight-box">Practice</div></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1 - 1:30</td>
+                <td></td>
+                <td></td>
+                <td><div class="highlight-box">Play</div></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3:45 - 5</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><div class="highlight-box">Code</div></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6 - 6:15</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><div class="highlight-box">Discuss</div></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="card">
+        <div class="section-title">My Skills</div>
+        
+        <div class="skill-container">
+            <div class="skill-name">&bull; HTML</div>
+            <div class="progress-bar-bg"><div class="progress-fill" style="width: 75%;"></div></div>
+        </div>
+        
+        <div class="skill-container">
+            <div class="skill-name">&bull; JavaScript</div>
+            <div class="progress-bar-bg"><div class="progress-fill" style="width: 45%;"></div></div>
+        </div>
+        
+        <div class="skill-container">
+            <div class="skill-name">&bull; Python</div>
+            <div class="progress-bar-bg"><div class="progress-fill" style="width: 30%;"></div></div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="section-title">My Media</div>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/mU6anWqZJcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="section-title">Contact Me</div>
+        <div class="smiley"><i class="fa-solid fa-face-smile"></i></div>
+        <form>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Message"></textarea>
+            <button type="button">Send</button>
+        </form>
+    </div>
+
+    <div class="card">
+        <div class="section-title">Follow Me</div>
+        <div class="social-icons">
+            <i class="fa-solid fa-laptop-code"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+        <div class="footer-text">&copy; 2026 My Blog. All rights reserved.</div>
+    </div>
+
+</div>
+
 </body>
-</html>
+                                             </html>
+                                             
